@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="tilt" data-tilt>
+                <img
+                    src="IMG_20250415_133055.jpg"
+                    class="img"
+                    alt="Pankaj" />
+                <!-- <div class="section">
+                    items
+                </div> -->
+            </div>
+        </div>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".tilt"), {
+              max: 1,
+              speed: 50
+            });
+        </script>
+    </body>
+</html>
